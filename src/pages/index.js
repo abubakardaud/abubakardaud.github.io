@@ -16,8 +16,8 @@ const IndexPage = () => (
     <div>
     <SEO title="Home" />
     <h1>Abu bakar Daud</h1>
-    <p>Software intern at <a href="http://loeysdietzcanada.org">Loeys Dietz Canada</a>, currently interested in data engineering</p>
-    <p class={"degree"}>HONORS MATH & COMPUTER SCIENCE @ McGill UNIVERSITY </p>
+    <p class={"main_line"}>Software intern at <a href="http://loeysdietzcanada.org">Loeys Dietz Canada</a>, currently interested in data engineering</p>
+    <p class={"degree"}>HONORS MATH & COMPUTER SCIENCE AT McGill UNIVERSITY </p>
     <div class={"img_container"}>
     <a href="https://github.com/abubakardaud"> <img src={img_1} alt="github"></img></a>
     <a href="https://www.linkedin.com/in/abu-bakar-daud-5356631b8/"> <img src={img_2} alt="linkedin"></img></a>

@@ -28,8 +28,17 @@ font-size: 20px;
   width:100%;
   display: inline-block;
   justify-content: center;
+  margin-top: -8px;
+}
+
+.main_line{
+padding-left: 8px;
+padding-right: 8px;
+margin-top: -7px;
 
 }
+
+
 
 img{
 width: 30px;
