@@ -1,22 +1,30 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import styles from "./styles.css"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import img_1 from "./GitHub-Mark-64px.png"
+import img_2 from "./61109.png"
+import img_3 from "./8807.png"
+
 
 const IndexPage = () => (
-  <Layout>
+
+    <div class={"card"}>
+    <div>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <h1>Abu bakar Daud</h1>
+    <p>Software intern at <a href="http://loeysdietzcanada.org">Loeys Dietz Canada</a>, currently interested in data engineering</p>
+    <p class={"degree"}>HONORS MATH & COMPUTER SCIENCE @ McGill UNIVERSITY </p>
+    <div class={"img_container"}>
+    <a href="https://github.com/abubakardaud"> <img src={img_1} alt="github"></img></a>
+    <a href="https://www.linkedin.com/in/abu-bakar-daud-5356631b8/"> <img src={img_2} alt="linkedin"></img></a>
+    <a href = "mailto: abubakar.daud@mail.mcgill.ca"><img src={img_3} alt="email"></img></a></div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+    </div>
+
 )
 
 export default IndexPage
