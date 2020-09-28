@@ -26,15 +26,14 @@ font-size: 20px;
 .img_container{
   height: 100%;
   width:100%;
-  display: flex;
+  display: inline-block;
   justify-content: center;
-
 
 }
 
 img{
 width: 30px;
-padding: 4px;
+padding: 5px;
 height: 30px;
 }
 
